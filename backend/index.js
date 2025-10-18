@@ -24,8 +24,8 @@ app.use("/api/mpesa", mpesaRoutes);
 
 
 // Frontend URL from env
-const FRONTEND_URL = process.env.FRONTEND_URL || "http://localhost:3000";
-const BASE_URL = process.env.BASE_URL
+const FRONTEND_URL = process.env.FRONTEND_URL || "https://fullstack-ecommerce-website-w98p.onrender.com/orderlist";
+const BASE_URL = process.env.BASE_URL || "https://fullstack-ecommerce-website-1-8it1.onrender.com";
 
 // ===================== MIDDLEWARE =====================
 // Use JSON for all routes EXCEPT /webhook
@@ -64,7 +64,7 @@ app.use("/images", express.static("upload/images"));
 app.post("/upload", upload.single('product'), (req, res) => { 
   res.json({ success: 1, 
     filename: req.file.filename, 
-    image_url: `http://localhost:${port}/images/${req.file.filename}`, 
+    image_url: `${BASE_URL}/images/${req.file.filename}`, 
   }); 
 });
 
