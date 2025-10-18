@@ -1,0 +1,58 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Build outputs
+build/
+dist/
+out/
+.next/
+.cache/
+coverage/
+
+# Logs
+logs/
+*.log
+*.log.*
+*.out
+*.pid
+*.seed
+*.pid.lock
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.swm
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Render or deployment cache
+.render-cache/
+.vercel/
+.netlify/
+
+# Misc
+*.tgz
+*.gz
+*.zip
+
+.env
+

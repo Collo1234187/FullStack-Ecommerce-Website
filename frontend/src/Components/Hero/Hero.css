@@ -1,0 +1,22 @@
+.hero-swiper {
+  width: 100%;
+  margin-bottom: 0 ;
+  padding: 0;
+}
+
+.banner-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.banner {
+  width: 100%;
+  height: auto;           
+  max-height: 600px;      
+  object-fit: cover;
+   
+}
+
+
