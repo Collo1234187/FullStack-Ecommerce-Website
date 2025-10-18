@@ -7,7 +7,7 @@ import ListProduct from '../../Components/ListProduct/ListProduct'
 import OrderList from '../../Components/OrderList/OrderList'
 
 const Admin = () => {
-  const url = 'http://localhost:4000'
+  const url = 'https://fullstack-ecommerce-website-1-8it1.onrender.com'
   return (
     <div className='admin'>
        <Sidebar/>
