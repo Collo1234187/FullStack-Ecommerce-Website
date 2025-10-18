@@ -24,8 +24,8 @@ app.use("/api/mpesa", mpesaRoutes);
 
 
 // Frontend URL from env
-const FRONTEND_URL = process.env.FRONTEND_URL || "https://fullstack-ecommerce-website-w98p.onrender.com/orderlist";
-const BASE_URL = process.env.BASE_URL || "https://fullstack-ecommerce-website-1-8it1.onrender.com";
+const FRONTEND_URL = "https://fullstack-ecommerce-website-w98p.onrender.com/orderlist";
+const BASE_URL ="https://fullstack-ecommerce-website-1-8it1.onrender.com";
 
 // ===================== MIDDLEWARE =====================
 // Use JSON for all routes EXCEPT /webhook
