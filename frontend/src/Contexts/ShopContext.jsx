@@ -7,7 +7,7 @@ export const ShopContextProvider = (props) => {
   const [cartItems, setCartItems] = useState({});
   const [buyNowItem, setBuyNowItem] = useState(null);
   const [authToken, setAuthToken] = useState(localStorage.getItem("auth-token") || "");
-  const url = "http://localhost:4000";
+  const url = "https://fullstack-ecommerce-website-1-8it1.onrender.com";
 
   // Fetch products
   useEffect(() => {
