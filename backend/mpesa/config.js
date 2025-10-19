@@ -5,8 +5,8 @@ const config = {
     consumerSecret: process.env.CONSUMER_SECRET || "",
     shortCode: process.env.SHORTCODE || "174379",
     passkey: process.env.PASSKEY || "bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919",
-    number: process.env.PUSHNUMBER || "254795414789",
-    amount: process.env.AMOUNT || "1",
+    number: process.env.PUSHNUMBER || "",
+    amount: process.env.AMOUNT || "",
     callbackUrl: process.env.CALLBACK_URL || ""
 };
 
