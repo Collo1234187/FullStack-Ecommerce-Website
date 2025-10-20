@@ -24,7 +24,7 @@ app.use("/api/mpesa", mpesaRoutes);
 
 
 // Frontend URL from env
-const FRONTEND_URL = "https://fullstack-ecommerce-website-w98p.onrender.com/orderlist";
+const FRONTEND_URL = "https://fullstack-ecommerce-website-backend-xkty.onrender.com";
 const BASE_URL ="https://fullstack-ecommerce-website-1-8it1.onrender.com";
 
 // ===================== MIDDLEWARE =====================
